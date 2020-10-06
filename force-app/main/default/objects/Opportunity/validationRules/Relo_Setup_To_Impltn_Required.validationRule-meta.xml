@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relo_Setup_To_Impltn_Required</fullName>
+    <active>false</active>
+    <description>Xbert ID, QL Name, Partner Type, Partner Services and Competition cannot be empty.
+&quot;Submit for Approval&quot; button on top right hand corner of the page must be clicked to send a Request for Approval email to Regional Director.</description>
+    <errorConditionFormula>NOT(Stage_Validation_Override__c) &amp;&amp;
+ ( ISBLANK( Go_Live_Date__c ) ||  Go_Live_Date__c  &gt;=  DATE(2018,2,1) )  &amp;&amp;
+(ISPICKVAL(Type,&apos;Corporate Direct&apos;) || ISPICKVAL(Type,&apos;Third Party Direct&apos;)) &amp;&amp;
+RecordType.DeveloperName = &quot;Relo&quot; &amp;&amp; 
+ISPICKVAL(StageName,&apos;Implementation&apos;) &amp;&amp; 
+(Xbert_ID__c =&apos;&apos; || QL_Name__c = &apos;&apos;|| ISNULL(Underwriting_Fee__c) ||  ISPICKVAL(Type,&apos;&apos;) ||  ISBLANK(Partner_Services__c) || ISBLANK(Competition__c) || ISNULL(Current_Contract_Start_Date__c) || ISNULL(Current_Contract_End_Date__c))</errorConditionFormula>
+    <errorMessage>Please check Guidance for Success in Set up Stage.</errorMessage>
+</ValidationRule>

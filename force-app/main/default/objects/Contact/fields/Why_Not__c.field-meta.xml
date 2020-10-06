@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Why_Not__c</fullName>
+    <externalId>false</externalId>
+    <label>Why Not?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Does_Agent_Qualify__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not enough experience</fullName>
+                <default>false</default>
+                <label>Not enough experience</label>
+            </value>
+            <value>
+                <fullName>Building Network</fullName>
+                <default>false</default>
+                <label>Building Network</label>
+            </value>
+            <value>
+                <fullName>Looking to hire people</fullName>
+                <default>false</default>
+                <label>Looking to hire people</label>
+            </value>
+            <value>
+                <fullName>Can not meet Net-worth requirement</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Can not meet Net-worth requirement</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>No</controllingFieldValue>
+            <valueName>Not enough experience</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No</controllingFieldValue>
+            <valueName>Building Network</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>No</controllingFieldValue>
+            <valueName>Looking to hire people</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

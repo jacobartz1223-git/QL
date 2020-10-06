@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stacy_MI_Prospects</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>No_of_Employees__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <columns>Third_Party__c</columns>
+    <columns>Partner_Tier__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.MI</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Prospect,Qualifying,Pursuing</value>
+    </filters>
+    <filters>
+        <field>Account_Executive__c</field>
+        <operation>equals</operation>
+        <value>Stacy Miller</value>
+    </filters>
+    <label>Stacy - MI Prospects</label>
+    <language>en_US</language>
+</ListView>

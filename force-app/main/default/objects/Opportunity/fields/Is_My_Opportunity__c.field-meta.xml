@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Is_My_Opportunity__c</fullName>
+    <description>Formula field to determine if logged in user is either the account executive, account manager or owner of the opportunity.</description>
+    <externalId>false</externalId>
+    <formula>IF(
+OR( 
+$User.Id = OwnerId, 
+$User.Id = Account_Executive__r.Id, 
+$User.Id = Account_Manager__r.Id 
+), 
+True, 
+False 
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>If logged in user the account manager, account executive or owner.</inlineHelpText>
+    <label>Is My Opportunity</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

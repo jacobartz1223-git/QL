@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AcctExec_Or_AcctMgr_Required</fullName>
+    <active>false</active>
+    <description>If the record is new and the record type is either MI or Relo then the AM or AE cannot be null</description>
+    <errorConditionFormula>NOT($User.Bypass_Validation__c) &amp;&amp;
+(RecordType.DeveloperName  = &quot;MI&quot; || RecordType.DeveloperName = &quot;Relo&quot; || RecordType.DeveloperName = &quot;Real_Estate&quot;) &amp;&amp;
+ISBLANK(Account_Executive__c) &amp;&amp;
+ISBLANK(Account_Manager__c)</errorConditionFormula>
+    <errorMessage>Must select a Account Manager or Account Executive</errorMessage>
+</ValidationRule>

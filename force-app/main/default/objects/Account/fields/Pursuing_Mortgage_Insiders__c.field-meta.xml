@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Pursuing_Mortgage_Insiders__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(Pursuing_MI_Prospect_Count__c &gt; 0 || Pursuing_MI_Active_Count__c &gt; 0, true, false)</formula>
+    <label>Pursuing Mortgage Insiders</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

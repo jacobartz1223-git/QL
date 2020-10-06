@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Starn_s_Active_Real_Estate_Partners</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>State__c</columns>
+    <columns>Go_Live_Date__c</columns>
+    <columns>Number_of_Agents__c</columns>
+    <columns>Number_of_Contact_Referrals__c</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <columns>Account_Executive__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Executive__c</field>
+        <operation>equals</operation>
+        <value>Mike Starn</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <label>Starn&apos;s Active Real Estate Partners</label>
+    <language>en_US</language>
+</ListView>

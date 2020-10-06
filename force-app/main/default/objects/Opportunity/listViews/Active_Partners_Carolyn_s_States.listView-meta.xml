@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Active_Partners_Carolyn_s_States</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Account_Manager__c</columns>
+    <columns>Account_Executive__c</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>Third_Party__c</columns>
+    <columns>Account_State__c</columns>
+    <columns>Total_US_Homeowner_Moves__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Relo</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <filters>
+        <field>Account_State__c</field>
+        <operation>equals</operation>
+        <value>WA,OR,CA,AZ,NM,TX,ID,NV,UT,CO,KS,OK,NE,SD,ND,MT,WY,HI,AK</value>
+    </filters>
+    <label>Active Partners - Carolyn&apos;s States</label>
+</ListView>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Soderberg_MI_Third_Parties</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <columns>Account_Executive__c</columns>
+    <columns>Regional_Director__c</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>Account_State__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Account_Executive__c</field>
+        <operation>equals</operation>
+        <value>Matt Soderberg</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.TYPE</field>
+        <operation>equals</operation>
+        <value>Third Party Direct</value>
+    </filters>
+    <label>Soderberg - MI Third Parties</label>
+    <language>en_US</language>
+</ListView>

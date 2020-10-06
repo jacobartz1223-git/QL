@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Competition__c</fullName>
+    <externalId>false</externalId>
+    <label>Competition</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Bank of America</fullName>
+                <default>false</default>
+                <label>Bank of America</label>
+            </value>
+            <value>
+                <fullName>Baxter Credit Union</fullName>
+                <default>false</default>
+                <label>Baxter Credit Union</label>
+            </value>
+            <value>
+                <fullName>Berkshire Hathaway Mortgage</fullName>
+                <default>false</default>
+                <label>Berkshire Hathaway Mortgage</label>
+            </value>
+            <value>
+                <fullName>Better Mortgage</fullName>
+                <default>false</default>
+                <label>Better Mortgage</label>
+            </value>
+            <value>
+                <fullName>Box Home Loans</fullName>
+                <default>false</default>
+                <label>Box Home Loans</label>
+            </value>
+            <value>
+                <fullName>Caliber Home Loans</fullName>
+                <default>false</default>
+                <label>Caliber Home Loans</label>
+            </value>
+            <value>
+                <fullName>Chase</fullName>
+                <default>false</default>
+                <label>Chase</label>
+            </value>
+            <value>
+                <fullName>Citi Bank</fullName>
+                <default>false</default>
+                <label>Citi Bank</label>
+            </value>
+            <value>
+                <fullName>Colonial National Mortgage</fullName>
+                <default>false</default>
+                <label>Colonial National Mortgage</label>
+            </value>
+            <value>
+                <fullName>GMAC</fullName>
+                <default>false</default>
+                <label>GMAC</label>
+            </value>
+            <value>
+                <fullName>GMH Mortgage</fullName>
+                <default>false</default>
+                <label>GMH Mortgage</label>
+            </value>
+            <value>
+                <fullName>Guaranteed Rate</fullName>
+                <default>false</default>
+                <label>Guaranteed Rate</label>
+            </value>
+            <value>
+                <fullName>HomeServices/BHHS</fullName>
+                <default>false</default>
+                <label>HomeServices/BHHS</label>
+            </value>
+            <value>
+                <fullName>Huntington</fullName>
+                <default>false</default>
+                <label>Huntington</label>
+            </value>
+            <value>
+                <fullName>Internal Credit Union</fullName>
+                <default>false</default>
+                <label>Internal Credit Union</label>
+            </value>
+            <value>
+                <fullName>New Penn Financial</fullName>
+                <default>false</default>
+                <label>New Penn Financial</label>
+            </value>
+            <value>
+                <fullName>Paragon/CLG</fullName>
+                <default>false</default>
+                <label>Paragon/CLG</label>
+            </value>
+            <value>
+                <fullName>PennyMac</fullName>
+                <default>false</default>
+                <label>PennyMac</label>
+            </value>
+            <value>
+                <fullName>PHH</fullName>
+                <default>false</default>
+                <label>PHH</label>
+            </value>
+            <value>
+                <fullName>Plus Relocation Mortgage</fullName>
+                <default>false</default>
+                <label>Plus Relocation Mortgage</label>
+            </value>
+            <value>
+                <fullName>PNC</fullName>
+                <default>false</default>
+                <label>PNC</label>
+            </value>
+            <value>
+                <fullName>Premia</fullName>
+                <default>false</default>
+                <label>Premia</label>
+            </value>
+            <value>
+                <fullName>Prime Lending</fullName>
+                <default>false</default>
+                <label>Prime Lending</label>
+            </value>
+            <value>
+                <fullName>Provident Funding</fullName>
+                <default>false</default>
+                <label>Provident Funding</label>
+            </value>
+            <value>
+                <fullName>Ruoff Mortgage</fullName>
+                <default>false</default>
+                <label>Ruoff Mortgage</label>
+            </value>
+            <value>
+                <fullName>Shelter</fullName>
+                <default>false</default>
+                <label>Shelter</label>
+            </value>
+            <value>
+                <fullName>Sibcy Cline</fullName>
+                <default>false</default>
+                <label>Sibcy Cline</label>
+            </value>
+            <value>
+                <fullName>Sirva</fullName>
+                <default>false</default>
+                <label>Sirva</label>
+            </value>
+            <value>
+                <fullName>Everbank</fullName>
+                <default>false</default>
+                <label>TIAA</label>
+            </value>
+            <value>
+                <fullName>US Bank</fullName>
+                <default>false</default>
+                <label>US Bank</label>
+            </value>
+            <value>
+                <fullName>Weichert Financial</fullName>
+                <default>false</default>
+                <label>Weichert Financial</label>
+            </value>
+            <value>
+                <fullName>Wells Fargo</fullName>
+                <default>false</default>
+                <label>Wells Fargo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

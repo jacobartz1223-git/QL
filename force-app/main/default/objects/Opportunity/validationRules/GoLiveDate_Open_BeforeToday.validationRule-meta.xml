@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GoLiveDate_Open_BeforeToday</fullName>
+    <active>false</active>
+    <description>ONLY for MI or Relo Recordtypes;
+IF Status is Open THEN Go Live Date is greater than or equal to Today</description>
+    <errorConditionFormula>$User.Bypass_Validation__c &lt;&gt; TRUE &amp;&amp; 
+(RecordType.DeveloperName = &quot;MI&quot; || RecordType.DeveloperName = &quot;Relo&quot; || RecordType.DeveloperName = &quot;Real_Estate&quot;) &amp;&amp;
+NOT(IsClosed) &amp;&amp; 
+(ISCHANGED(StageName) || ISCHANGED(Go_Live_Date__c) || ISNEW()) &amp;&amp;
+NOT(ISNULL(Go_Live_Date__c)) &amp;&amp; 
+Go_Live_Date__c &lt; TODAY()</errorConditionFormula>
+    <errorDisplayField>Go_Live_Date__c</errorDisplayField>
+    <errorMessage>Please enter today&apos;s date or any future date.</errorMessage>
+</ValidationRule>

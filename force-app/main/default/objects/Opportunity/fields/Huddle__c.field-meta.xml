@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Huddle__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Have we completed a huddle with this team, this year</description>
+    <externalId>false</externalId>
+    <label>Huddle</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

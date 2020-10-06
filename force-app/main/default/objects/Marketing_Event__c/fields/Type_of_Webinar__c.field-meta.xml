@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Webinar__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of Webinar</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Mortgage 101</fullName>
+                <default>false</default>
+                <label>Mortgage 101</label>
+            </value>
+            <value>
+                <fullName>Implementation</fullName>
+                <default>false</default>
+                <label>Implementation</label>
+            </value>
+            <value>
+                <fullName>Condo 101</fullName>
+                <default>false</default>
+                <label>Condo 101</label>
+            </value>
+            <value>
+                <fullName>FHA</fullName>
+                <default>false</default>
+                <label>FHA</label>
+            </value>
+            <value>
+                <fullName>Home Sale</fullName>
+                <default>false</default>
+                <label>Home Sale</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

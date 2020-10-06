@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allyson_Webb_s_MAs</fullName>
+    <booleanFilter>1 OR 2 OR 3</booleanFilter>
+    <columns>NAME</columns>
+    <columns>Marketing_Activity_Name__c</columns>
+    <columns>Status__c</columns>
+    <columns>Type__c</columns>
+    <columns>Channel__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>End_Date__c</columns>
+    <columns>Assigned_Marketing_Team_Member__c</columns>
+    <columns>OWNER.FIRST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Assigned_Marketing_Team_Member__c</field>
+        <operation>contains</operation>
+        <value>Allyson</value>
+    </filters>
+    <filters>
+        <field>OWNER.FIRST_NAME</field>
+        <operation>equals</operation>
+        <value>Allyson</value>
+    </filters>
+    <filters>
+        <field>Channel__c</field>
+        <operation>equals</operation>
+        <value>State Farm</value>
+    </filters>
+    <label>Allyson Webb&apos;s MAs</label>
+</ListView>

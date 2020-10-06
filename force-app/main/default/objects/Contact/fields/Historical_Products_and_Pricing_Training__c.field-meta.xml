@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Historical_Products_and_Pricing_Training__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Agents that were required to take the Knowledge Assessment training, Mortgage Basics training, or training was not required at time of onboarding. Equivalent to completing Products and Pricing training for purpose of RTO.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Agents that were required to take the Knowledge Assessment training, Mortgage Basics training, or training was not required at time of onboarding. Equivalent to completing Products and Pricing training for purpose of RTO.</inlineHelpText>
+    <label>Historical Products and Pricing Training</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

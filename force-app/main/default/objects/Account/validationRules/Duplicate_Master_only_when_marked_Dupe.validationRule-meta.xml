@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Duplicate_Master_only_when_marked_Dupe</fullName>
+    <active>true</active>
+    <errorConditionFormula>(NOT(ISBLANK(Duplicate_Master__c)) &amp;&amp; 
+NOT(ISPICKVAL(Verification_Status__c, &apos;Duplicate&apos;))) ||
+(ISPICKVAL(Verification_Status__c, &apos;Duplicate&apos;) &amp;&amp;
+ISBLANK(Duplicate_Master__c))</errorConditionFormula>
+    <errorDisplayField>Verification_Status__c</errorDisplayField>
+    <errorMessage>When Verification Status = &apos;Duplicate&apos;, you must select a Duplicate Master.
+When a Duplicate Master is selected, you must mark Verification Status as &apos;Duplicate&apos;</errorMessage>
+</ValidationRule>

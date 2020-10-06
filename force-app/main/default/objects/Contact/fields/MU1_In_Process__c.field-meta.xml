@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MU1_In_Process__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>An MU 1 Prep Session is with a status of &quot;Scheduled&quot;</inlineHelpText>
+    <label>MU1 In Process</label>
+    <summaryFilterItems>
+        <field>Session__c.Broker_Appointment_Type__c</field>
+        <operation>equals</operation>
+        <value>MU1 Prep</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Session__c.Status__c</field>
+        <operation>equals</operation>
+        <value>Scheduled, Attended</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Session__c.Contact__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

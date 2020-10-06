@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MI_Special_Offer_Opportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>Account_Manager__c</columns>
+    <columns>Account_Executive__c</columns>
+    <columns>Benefit_Offer_Details__c</columns>
+    <columns>Exclude_Rocket_Homes__c</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>Third_Party__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.MI,Opportunity.MI_Rewards,Opportunity.Strategic_Partnership,Opportunity.Strategic_Partnerships1</value>
+    </filters>
+    <label>MI Special Offer Opportunities</label>
+</ListView>

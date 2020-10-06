@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StrategicOpportunities</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Channel_Type__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_Executive__c</columns>
+    <columns>Account_Manager__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Sub_Status__c</columns>
+    <columns>Go_Live_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Channel_Type__c</field>
+        <operation>equals</operation>
+        <value>Strategic Partnership</value>
+    </filters>
+    <label>All Opportunities for Strategic Partners</label>
+</ListView>

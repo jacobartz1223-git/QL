@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Current_Partner_Status_Required</fullName>
+    <active>false</active>
+    <description>Partner Status is Required when Status is Inactive or Terminated</description>
+    <errorConditionFormula>NOT($User.Bypass_Validation__c) &amp;&amp;
+(ISCHANGED(StageName) || ISNEW()) &amp;&amp;
+(ISPICKVAL(StageName, &apos;Inactive&apos;) || ISPICKVAL(StageName, &apos;Terminated&apos;) || ISPICKVAL(Sub_Status__c, &apos;Inactive&apos;) || ISPICKVAL(Sub_Status__c, &apos;QL Terminated&apos;) || ISPICKVAL(Sub_Status__c, &apos;Partner Terminated&apos;)) &amp;&amp; 
+ISBLANK(Description)</errorConditionFormula>
+    <errorDisplayField>Description</errorDisplayField>
+    <errorMessage>Please add a brief explanation why Status is Inactive or Terminated</errorMessage>
+</ValidationRule>

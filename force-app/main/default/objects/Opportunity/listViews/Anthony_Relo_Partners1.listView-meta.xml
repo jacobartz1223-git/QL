@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Anthony_Relo_Partners1</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Primary_Contact__c</columns>
+    <columns>Primary_Contact_Email__c</columns>
+    <columns>Third_Party__c</columns>
+    <columns>Third_Party_Primary_Contact__c</columns>
+    <columns>Third_Party_Primary_Contact_Email__c</columns>
+    <columns>Managed_or_Non_Managed__c</columns>
+    <columns>Account_State__c</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <columns>Client_Service_Manager__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.Relo</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.TYPE</field>
+        <operation>equals</operation>
+        <value>Corporate Direct,Third Party Direct</value>
+    </filters>
+    <label>Anthony - Relo Partners</label>
+</ListView>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Services__c</fullName>
+    <externalId>false</externalId>
+    <label>Program Services</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Direct Bill</fullName>
+                <default>false</default>
+                <label>Direct Bill</label>
+            </value>
+            <value>
+                <fullName>Expat Mortgage</fullName>
+                <default>false</default>
+                <label>Expat Mortgage</label>
+            </value>
+            <value>
+                <fullName>Expat Services</fullName>
+                <default>false</default>
+                <label>Expat Services</label>
+            </value>
+            <value>
+                <fullName>Mortgage Subsidy</fullName>
+                <default>false</default>
+                <label>Mortgage Subsidy</label>
+            </value>
+            <value>
+                <fullName>Wire to Closing</fullName>
+                <default>false</default>
+                <label>Wire to Closing</label>
+            </value>
+            <value>
+                <fullName>Corporate 2nd&apos;s</fullName>
+                <default>false</default>
+                <label>Corporate 2nd&apos;s</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MI_Opportunities_in_Setup</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>Last_Status_Change_Date__c</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>Third_Party__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Benefit_Offer_Details__c</columns>
+    <columns>Exclude_Rocket_Homes__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Setup</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.MI,Opportunity.MI_Rewards</value>
+    </filters>
+    <label>MI Opportunities in Setup</label>
+</ListView>

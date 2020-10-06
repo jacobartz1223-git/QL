@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Who_Sends_Leads__c</fullName>
+    <externalId>false</externalId>
+    <label>Who Sends Leads</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>RMC</fullName>
+                <default>false</default>
+                <label>RMC</label>
+            </value>
+            <value>
+                <fullName>Corporate/Government</fullName>
+                <default>false</default>
+                <label>Corporate/Government</label>
+            </value>
+            <value>
+                <fullName>LCM</fullName>
+                <default>false</default>
+                <label>LCM</label>
+            </value>
+            <value>
+                <fullName>LCM Relo Solutions</fullName>
+                <default>false</default>
+                <label>LCM Relo Solutions</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

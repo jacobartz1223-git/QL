@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Account_Closed_Loan_Revenue__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Excluding Third Party</inlineHelpText>
+    <label>Account Closed Loan Revenue</label>
+    <summarizedField>Opportunity.Closed_Loan_Revenue__c</summarizedField>
+    <summaryForeignKey>Opportunity.AccountId</summaryForeignKey>
+    <summaryOperation>sum</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

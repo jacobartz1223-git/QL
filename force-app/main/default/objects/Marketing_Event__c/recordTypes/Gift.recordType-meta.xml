@@ -1,0 +1,1072 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gift</fullName>
+    <active>true</active>
+    <label>Gift</label>
+    <picklistValues>
+        <picklist>Approval_Status__c</picklist>
+        <values>
+            <fullName>Approved</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Pending Marketing Leader Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pending Team Leader Approval</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Audience_Type__c</picklist>
+        <values>
+            <fullName>Client</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contact</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Channel__c</picklist>
+        <values>
+            <fullName>MI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MassMutual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Real Estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Schwab</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Farm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Strategic Partnership</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team Member</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Contracted_or_One_Off__c</picklist>
+        <values>
+            <fullName>Contracted</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>One-Off</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Event_Address_State__c</picklist>
+        <values>
+            <fullName>Alabama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alaska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arizona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arkansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colorado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connecticut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delaware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Florida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Georgia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hawaii</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Idaho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Illinois</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iowa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Louisiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massachusetts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michigan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minnesota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mississippi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missouri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nebraska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nevada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Hampshire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Jersey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oklahoma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oregon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pennsylvania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rhode Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennessee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Texas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vermont</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wisconsin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wyoming</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Event_State__c</picklist>
+        <values>
+            <fullName>Alabama</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alaska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arizona</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Arkansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>California</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Colorado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Connecticut</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Delaware</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Florida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Georgia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hawaii</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Idaho</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Illinois</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iowa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kansas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kentucky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Louisiana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maryland</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Massachusetts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michigan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Minnesota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mississippi</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Missouri</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Montana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nebraska</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nevada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Hampshire</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Jersey</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New Mexico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New York</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>North Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ohio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oklahoma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Oregon</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pennsylvania</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rhode Island</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Carolina</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>South Dakota</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tennessee</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Texas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utah</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Vermont</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Washington D%2EC%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>West Virginia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wisconsin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wyoming</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Event_Type__c</picklist>
+        <values>
+            <fullName>Benefit Partner Fair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Both</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Conference</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corporate Round Table</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Focus Group</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Office Visit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Regional Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TML</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TMR</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Exhibiting__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Have_We_Attended_this_Event_in_the_Past__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unknown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>How_are_we_sending_supplies__c</picklist>
+        <values>
+            <fullName>Attendee Pickup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UPS</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Marketing_Assistance_Needed__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Method_of_Payment__c</picklist>
+        <values>
+            <fullName>Check Request</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Credit Card</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>National Sponsorship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unpaid</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Network_Type__c</picklist>
+        <values>
+            <fullName>Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instagram</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LinkedIn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Twitter</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Offer__c</picklist>
+        <values>
+            <fullName>500</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>500%2F1000</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>500%2F500</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>500%2F750</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>500%2FFree Appraisal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Program_Audience__c</picklist>
+        <values>
+            <fullName>Counselor Presentation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Real Estate</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Relocation</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Relationship_Type__c</picklist>
+        <values>
+            <fullName>Corporate Direct</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Third Party</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Cancelled</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confirmed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Rejected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tentative</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Table__c</picklist>
+        <values>
+            <fullName>6%27 table</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>8%27 table</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Team_Members_Attending__c</picklist>
+        <values>
+            <fullName>Alix Dickson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anna Becker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Anthony Hughes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ashley Allison</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ashley Slusser</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ashley Spangler</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bridget Welsh</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carolyn Palafox</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chan%27tay Robins</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Chase Fitzpatrick</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eddie DeRonne</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emily Roy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emily Sheng</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Emily Stark</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Faten Amine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jason Miller</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jeff Wissman</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jennifer Lundgren</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jim Woodworth</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Joe Dudek</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Joelle Maes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jordan Joseph</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Josh Babb</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Karen Polzin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Katelyn Lalinsky</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kayla Jimenez</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kelly Hickoff</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kiaira May</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Krisna Evenson</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kristina Gianuario</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kurt Klinker</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kurtis Schneider</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Kyle Lemcke</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Larissa Dourjalian</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lauren Gadoua</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lexi Weber</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lisa Fontana</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maria Serravalle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Matt Conn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Maura Moin</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Megan Ludwig</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michael Farner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Michelle Damanskas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mike Kluge</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mike Starn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Munt Alhussain</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nick Brown</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nina Kieleszewski</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Patrick Grelak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rin Jones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rob Eames</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shaun Rapske</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Stacy Churay</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tom Dempsey</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Article</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Attending Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Benefit Fair</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Direct Mail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Group Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Huddles</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IHR Communication</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lunch %26 Learn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Print</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rock World Post</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social-Facebook</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social-Instagram</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social-LinkedIn</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Social-Twitter</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solo Email</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Specialized Web Placement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sponsored Event</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team Member Loan</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Team Member Referral</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Webinar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welcome Email</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_Engagement__c</picklist>
+        <values>
+            <fullName>Connection Log</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ERC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Happy Hour</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Round Table</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SRRC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Smaller Event</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_Webinar__c</picklist>
+        <values>
+            <fullName>Condo 101</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FHA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Home Sale</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Implementation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mortgage 101</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

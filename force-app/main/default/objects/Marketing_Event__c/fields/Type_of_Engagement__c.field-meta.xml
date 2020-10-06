@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Engagement__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of Engagement</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ERC</fullName>
+                <default>false</default>
+                <label>ERC</label>
+            </value>
+            <value>
+                <fullName>SRRC</fullName>
+                <default>false</default>
+                <label>SRRC</label>
+            </value>
+            <value>
+                <fullName>Smaller Event</fullName>
+                <default>false</default>
+                <label>Smaller Event</label>
+            </value>
+            <value>
+                <fullName>Connection Log</fullName>
+                <default>false</default>
+                <label>Connection Log</label>
+            </value>
+            <value>
+                <fullName>Happy Hour</fullName>
+                <default>false</default>
+                <label>Happy Hour</label>
+            </value>
+            <value>
+                <fullName>Round Table</fullName>
+                <default>false</default>
+                <label>Round Table</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

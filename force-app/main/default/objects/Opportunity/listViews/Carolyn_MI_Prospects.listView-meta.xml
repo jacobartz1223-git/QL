@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Carolyn_MI_Prospects</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Account_State__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Partner_Tier__c</columns>
+    <columns>Account_Executive__c</columns>
+    <columns>Third_Party__c</columns>
+    <columns>No_of_Employees__c</columns>
+    <columns>OPPORTUNITY.LAST_ACTIVITY</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Prospect,Qualifying,Pursuing</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.MI</value>
+    </filters>
+    <filters>
+        <field>Account_Executive__c</field>
+        <operation>equals</operation>
+        <value>carolyn palafox</value>
+    </filters>
+    <label>Carolyn - MI Prospects</label>
+    <language>en_US</language>
+</ListView>

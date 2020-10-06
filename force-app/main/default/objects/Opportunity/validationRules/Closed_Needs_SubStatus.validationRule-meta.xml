@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Closed_Needs_SubStatus</fullName>
+    <active>true</active>
+    <description>Please select a Sub-Status when marking an Opportunity as Closed</description>
+    <errorConditionFormula>NOT(Stage_Validation_Override__c) &amp;&amp;
+(RecordType.DeveloperName = &quot;Relo&quot; || RecordType.DeveloperName = &quot;Real_Estate&quot; || RecordType.DeveloperName = &quot;MI&quot;) &amp;&amp; 
+IsClosed &amp;&amp; NOT(IsWon) &amp;&amp; 
+ISNULL(TEXT(Sub_Status__c))</errorConditionFormula>
+    <errorDisplayField>Sub_Status__c</errorDisplayField>
+    <errorMessage>Please select a Sub-Status when marking an Opportunity as Vetted Non-Opportunity.</errorMessage>
+</ValidationRule>

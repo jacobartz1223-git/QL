@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Partner_Promotions_Menu</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>Account_Manager__c</columns>
+    <columns>Dedicated_Email_Blast__c</columns>
+    <columns>Welcome_Email__c</columns>
+    <columns>Word_Blurb__c</columns>
+    <columns>Webinar__c</columns>
+    <columns>Specialized_Web_Placement__c</columns>
+    <columns>Shared_Email_E_Newsletter__c</columns>
+    <columns>PDF_Blurb__c</columns>
+    <columns>Benefit_Fair__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.MI</value>
+    </filters>
+    <label>Partner Promotions Menu</label>
+</ListView>

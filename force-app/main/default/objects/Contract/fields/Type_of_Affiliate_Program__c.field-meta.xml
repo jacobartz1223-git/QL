@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type_of_Affiliate_Program__c</fullName>
+    <externalId>false</externalId>
+    <label>Type of Affiliate Program</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Affinity</fullName>
+                <default>false</default>
+                <label>Affinity</label>
+            </value>
+            <value>
+                <fullName>Simple Move</fullName>
+                <default>false</default>
+                <label>Simple Move</label>
+            </value>
+            <value>
+                <fullName>City Switcher</fullName>
+                <default>false</default>
+                <label>City Switcher</label>
+            </value>
+            <value>
+                <fullName>NEI</fullName>
+                <default>false</default>
+                <label>NEI</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

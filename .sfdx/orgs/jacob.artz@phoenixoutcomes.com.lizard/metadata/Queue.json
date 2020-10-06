@@ -1,0 +1,161 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "0053A00000CtdwUQAR",
+      "createdByName": "Lexi Weber",
+      "createdDate": "2018-05-17T21:34:06.000Z",
+      "fileName": "queues/Analytics_Request.queue",
+      "fullName": "Analytics_Request",
+      "id": "00G3A0000039hp1UAA",
+      "lastModifiedById": "0053A00000C9gZYQAZ",
+      "lastModifiedByName": "Karen Polzin",
+      "lastModifiedDate": "2020-01-06T19:45:56.000Z",
+      "type": "Queue"
+    },
+    {
+      "createdById": "0053A00000DekZWQAZ",
+      "createdByName": "Vinnie DiMarco",
+      "createdDate": "2020-04-06T17:53:48.000Z",
+      "fileName": "queues/Training_Team.queue",
+      "fullName": "Training_Team",
+      "id": "00G3A000004yEs6UAE",
+      "lastModifiedById": "0053A00000DekZWQAZ",
+      "lastModifiedByName": "Vinnie DiMarco",
+      "lastModifiedDate": "2020-04-06T20:02:22.000Z",
+      "type": "Queue"
+    },
+    {
+      "createdById": "0053A00000CtdwUQAR",
+      "createdByName": "Lexi Weber",
+      "createdDate": "2018-02-05T20:56:50.000Z",
+      "fileName": "queues/Salesforce_Requests.queue",
+      "fullName": "Salesforce_Requests",
+      "id": "00G3A000004EFymUAG",
+      "lastModifiedById": "0053A00000C9gZYQAZ",
+      "lastModifiedByName": "Karen Polzin",
+      "lastModifiedDate": "2020-01-06T19:46:32.000Z",
+      "type": "Queue"
+    },
+    {
+      "createdById": "00530000008l4wKAAQ",
+      "createdByName": "Salesforce Support",
+      "createdDate": "2017-03-09T22:13:31.000Z",
+      "fileName": "queues/Unassigned_MRQs.queue",
+      "fullName": "Unassigned_MRQs",
+      "id": "00G3A0000039eeLUAQ",
+      "lastModifiedById": "00530000008l4wKAAQ",
+      "lastModifiedByName": "Salesforce Support",
+      "lastModifiedDate": "2017-03-10T19:40:49.000Z",
+      "type": "Queue"
+    },
+    {
+      "createdById": "0053A00000DekZWQAZ",
+      "createdByName": "Vinnie DiMarco",
+      "createdDate": "2020-05-06T20:09:55.000Z",
+      "fileName": "queues/MLO_Licensing_Team.queue",
+      "fullName": "MLO_Licensing_Team",
+      "id": "00G3A000004aaHsUAI",
+      "lastModifiedById": "0053A00000DekZWQAZ",
+      "lastModifiedByName": "Vinnie DiMarco",
+      "lastModifiedDate": "2020-05-06T20:09:55.000Z",
+      "type": "Queue"
+    },
+    {
+      "createdById": "0054V00000FqMmCQAV",
+      "createdByName": "Jacob Artz",
+      "createdDate": "2020-08-04T15:30:07.000Z",
+      "fileName": "queues/PDM_Team.queue",
+      "fullName": "PDM_Team",
+      "id": "00GK0000002ZrldMAC",
+      "lastModifiedById": "0054V00000FqMmBQAV",
+      "lastModifiedByName": "Manjunath Ramachandra",
+      "lastModifiedDate": "2020-09-22T17:47:12.000Z",
+      "type": "Queue"
+    },
+    {
+      "createdById": "0053A00000DekZWQAZ",
+      "createdByName": "Vinnie DiMarco",
+      "createdDate": "2020-05-06T20:10:20.000Z",
+      "fileName": "queues/Broker_Licensing_Team.queue",
+      "fullName": "Broker_Licensing_Team",
+      "id": "00G3A000004aaHxUAI",
+      "lastModifiedById": "0053A00000DekZWQAZ",
+      "lastModifiedByName": "Vinnie DiMarco",
+      "lastModifiedDate": "2020-05-06T20:10:20.000Z",
+      "type": "Queue"
+    },
+    {
+      "createdById": "0053A00000CtdwUQAR",
+      "createdByName": "Lexi Weber",
+      "createdDate": "2020-04-15T20:25:42.000Z",
+      "fileName": "queues/Unassigned_Cases.queue",
+      "fullName": "Unassigned_Cases",
+      "id": "00G3A000004aZHVUA2",
+      "lastModifiedById": "0053A00000CtdwUQAR",
+      "lastModifiedByName": "Lexi Weber",
+      "lastModifiedDate": "2020-04-15T20:25:42.000Z",
+      "type": "Queue"
+    },
+    {
+      "createdById": "0054V00000FqMmCQAV",
+      "createdByName": "Jacob Artz",
+      "createdDate": "2020-08-10T12:38:06.000Z",
+      "fileName": "queues/Chat.queue",
+      "fullName": "Chat",
+      "id": "00GK0000002ZvFCMA0",
+      "lastModifiedById": "0054V00000FqMmCQAV",
+      "lastModifiedByName": "Jacob Artz",
+      "lastModifiedDate": "2020-08-10T12:43:17.000Z",
+      "type": "Queue"
+    },
+    {
+      "createdById": "0054V00000FqMmBQAV",
+      "createdByName": "Manjunath Ramachandra",
+      "createdDate": "2020-09-23T14:45:57.000Z",
+      "fileName": "queues/ARM_Team.queue",
+      "fullName": "ARM_Team",
+      "id": "00GK0000002aNvMMAU",
+      "lastModifiedById": "0054V00000FqMmBQAV",
+      "lastModifiedByName": "Manjunath Ramachandra",
+      "lastModifiedDate": "2020-09-23T14:45:57.000Z",
+      "type": "Queue"
+    },
+    {
+      "createdById": "0054V00000FqMmBQAV",
+      "createdByName": "Manjunath Ramachandra",
+      "createdDate": "2020-09-14T18:48:42.000Z",
+      "fileName": "queues/Referral_Queue.queue",
+      "fullName": "Referral_Queue",
+      "id": "00GK0000002aHCCMA2",
+      "lastModifiedById": "0054V00000FqMmBQAV",
+      "lastModifiedByName": "Manjunath Ramachandra",
+      "lastModifiedDate": "2020-09-14T18:48:42.000Z",
+      "type": "Queue"
+    },
+    {
+      "createdById": "0053A00000DekZWQAZ",
+      "createdByName": "Vinnie DiMarco",
+      "createdDate": "2020-04-06T17:55:12.000Z",
+      "fileName": "queues/PSS_Team.queue",
+      "fullName": "PSS_Team",
+      "id": "00G3A000004yEsBUAU",
+      "lastModifiedById": "0053A00000DekZWQAZ",
+      "lastModifiedByName": "Vinnie DiMarco",
+      "lastModifiedDate": "2020-04-21T15:10:19.000Z",
+      "type": "Queue"
+    },
+    {
+      "createdById": "0053A00000CtdwUQAR",
+      "createdByName": "Lexi Weber",
+      "createdDate": "2020-04-08T21:22:59.000Z",
+      "fileName": "queues/State_Farm_Voicemail_Queue.queue",
+      "fullName": "State_Farm_Voicemail_Queue",
+      "id": "00G3A000004yEw3UAE",
+      "lastModifiedById": "0053A00000CtdwUQAR",
+      "lastModifiedByName": "Lexi Weber",
+      "lastModifiedDate": "2020-04-08T21:22:59.000Z",
+      "type": "Queue"
+    }
+  ]
+}

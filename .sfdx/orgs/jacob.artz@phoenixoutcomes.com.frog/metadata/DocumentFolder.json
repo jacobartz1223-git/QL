@@ -1,0 +1,110 @@
+{
+  "status": 0,
+  "result": [
+    {
+      "createdById": "00530000000mFhkAAE",
+      "createdByName": "Lisa Beernaert",
+      "createdDate": "2007-02-16T17:34:15.000Z",
+      "fileName": "documents/Training",
+      "fullName": "Training",
+      "id": "00l30000000yWb0AAE",
+      "lastModifiedById": "00530000000mFhkAAE",
+      "lastModifiedByName": "Lisa Beernaert",
+      "lastModifiedDate": "2007-02-16T17:34:15.000Z",
+      "manageableState": "unmanaged",
+      "type": "DocumentFolder"
+    },
+    {
+      "createdById": "0053A00000CtdwUQAR",
+      "createdByName": "Lexi Weber",
+      "createdDate": "2019-04-02T15:36:37.000Z",
+      "fileName": "documents/Graphics_Pack_for_Formulas",
+      "fullName": "Graphics_Pack_for_Formulas",
+      "id": "00l3A000003KbtDQAS",
+      "lastModifiedById": "0053A00000CtdwUQAR",
+      "lastModifiedByName": "Lexi Weber",
+      "lastModifiedDate": "2019-04-02T15:36:37.000Z",
+      "manageableState": "unmanaged",
+      "type": "DocumentFolder"
+    },
+    {
+      "createdById": "00530000000lsQWAAY",
+      "createdByName": "Susan Woolner",
+      "createdDate": "2006-11-28T22:31:17.000Z",
+      "fileName": "documents/Logos",
+      "fullName": "Logos",
+      "id": "00l30000000yLXHAA2",
+      "lastModifiedById": "00530000000lsQWAAY",
+      "lastModifiedByName": "Susan Woolner",
+      "lastModifiedDate": "2006-11-28T22:31:17.000Z",
+      "manageableState": "unmanaged",
+      "type": "DocumentFolder"
+    },
+    {
+      "createdById": "0053A00000CtdwUQAR",
+      "createdByName": "Lexi Weber",
+      "createdDate": "2019-04-02T15:36:37.000Z",
+      "fileName": "documents/Graphics_Pack_for_Tabs",
+      "fullName": "Graphics_Pack_for_Tabs",
+      "id": "00l3A000003KbtEQAS",
+      "lastModifiedById": "0053A00000CtdwUQAR",
+      "lastModifiedByName": "Lexi Weber",
+      "lastModifiedDate": "2019-04-02T15:36:37.000Z",
+      "manageableState": "unmanaged",
+      "type": "DocumentFolder"
+    },
+    {
+      "createdById": "00530000008l4wKAAQ",
+      "createdByName": "Salesforce Support",
+      "createdDate": "2013-10-06T01:15:55.000Z",
+      "fileName": "documents/Public",
+      "fullName": "Public",
+      "id": "00l30000003JpstAAC",
+      "lastModifiedById": "00530000008l4wKAAQ",
+      "lastModifiedByName": "Salesforce Support",
+      "lastModifiedDate": "2013-10-06T01:15:55.000Z",
+      "manageableState": "unmanaged",
+      "type": "DocumentFolder"
+    },
+    {
+      "createdById": "0053A00000CY5ziQAD",
+      "createdByName": "Ron Reed",
+      "createdDate": "2016-09-30T14:52:54.000Z",
+      "fileName": "documents/Email_Template_Images",
+      "fullName": "Email_Template_Images",
+      "id": "00l3A000002YEJSQA4",
+      "lastModifiedById": "0053A00000CY5ziQAD",
+      "lastModifiedByName": "Ron Reed",
+      "lastModifiedDate": "2016-09-30T14:52:54.000Z",
+      "manageableState": "unmanaged",
+      "type": "DocumentFolder"
+    },
+    {
+      "createdById": "0053A00000C9LTtQAN",
+      "createdByName": "Peter Boyle",
+      "createdDate": "2017-06-16T16:56:04.000Z",
+      "fileName": "documents/Salesforce1_Branding_Resources",
+      "fullName": "Salesforce1_Branding_Resources",
+      "id": "00l3A0000033wCbQAI",
+      "lastModifiedById": "0053A00000C9LTtQAN",
+      "lastModifiedByName": "Peter Boyle",
+      "lastModifiedDate": "2017-06-16T16:56:04.000Z",
+      "manageableState": "unmanaged",
+      "type": "DocumentFolder"
+    },
+    {
+      "createdById": "0053A00000CtdwUQAR",
+      "createdByName": "Lexi Weber",
+      "createdDate": "2019-02-15T16:26:55.000Z",
+      "fileName": "documents/rh2__Public_Images",
+      "fullName": "rh2__Public_Images",
+      "id": "00l3A000003PTiBQAW",
+      "lastModifiedById": "0053A00000CtdwUQAR",
+      "lastModifiedByName": "Lexi Weber",
+      "lastModifiedDate": "2019-02-15T16:26:55.000Z",
+      "manageableState": "installed",
+      "namespacePrefix": "rh2",
+      "type": "DocumentFolder"
+    }
+  ]
+}

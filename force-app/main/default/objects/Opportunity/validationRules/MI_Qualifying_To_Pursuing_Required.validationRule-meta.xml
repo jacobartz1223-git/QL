@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MI_Qualifying_To_Pursuing_Required</fullName>
+    <active>false</active>
+    <description>Company(Account Name) should have a Primary Contact with First Name, Last Name, Email and Phone Number fields populated, Number of Employees should be greater than 200 and Partner Type cannot be &quot;Third Party&quot;.</description>
+    <errorConditionFormula>NOT(Stage_Validation_Override__c) &amp;&amp;
+ ( ISBLANK( Go_Live_Date__c ) ||  Go_Live_Date__c  &gt;=  DATE(2018,2,1) ) &amp;&amp;
+(ISPICKVAL(Type,&apos;Corporate Direct&apos;) || ISPICKVAL(Type,&apos;Third Party Direct&apos;)) &amp;&amp;
+RecordType.DeveloperName = &quot;MI&quot; &amp;&amp;
+!(ISPICKVAL(StageName,&apos;Qualifying&apos;) ||
+  ISPICKVAL(StageName,&apos;New&apos;) ||
+  ISPICKVAL(StageName,&apos;Vetted Non-Opportunity&apos;)) &amp;&amp;
+(ISNULL(Domestic_Employees__c) || Domestic_Employees__c &lt; 200 ||
+ ISPICKVAL(Type, &apos;Third Party&apos;) ||
+  ISPICKVAL(Type, &apos;&apos;) || 
+ ISBLANK(Decision_Maker__c) ||
+ ISBLANK(Decision_Maker__r.FirstName ) ||
+ ISBLANK(Decision_Maker__r.LastName) ||
+ ISBLANK(Decision_Maker__r.Email) ||
+ ISBLANK(Decision_Maker__r.Phone))</errorConditionFormula>
+    <errorMessage>Please Check Guidance for Success mentioned in Qualifying Stage</errorMessage>
+</ValidationRule>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lisa_s_Activities</fullName>
+    <columns>NAME</columns>
+    <columns>Marketing_Activity_Name__c</columns>
+    <columns>Status__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>End_Date__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>requester_user__c</field>
+        <operation>equals</operation>
+        <value>Lisa Fontana</value>
+    </filters>
+    <label>Lisa&apos;s Activities</label>
+</ListView>

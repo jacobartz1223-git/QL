@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Members_Attending__c</fullName>
+    <externalId>false</externalId>
+    <label>Team Members Attending</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Alix Dickson</fullName>
+                <default>false</default>
+                <label>Alix Dickson</label>
+            </value>
+            <value>
+                <fullName>Anna Becker</fullName>
+                <default>false</default>
+                <label>Anna Becker</label>
+            </value>
+            <value>
+                <fullName>Anthony Hughes</fullName>
+                <default>false</default>
+                <label>Anthony Hughes</label>
+            </value>
+            <value>
+                <fullName>Ashley Allison</fullName>
+                <default>false</default>
+                <label>Ashley Allison</label>
+            </value>
+            <value>
+                <fullName>Ashley Slusser</fullName>
+                <default>false</default>
+                <label>Ashley Slusser</label>
+            </value>
+            <value>
+                <fullName>Ashley Spangler</fullName>
+                <default>false</default>
+                <label>Ashley Spangler</label>
+            </value>
+            <value>
+                <fullName>Bridget Welsh</fullName>
+                <default>false</default>
+                <label>Bridget Welsh</label>
+            </value>
+            <value>
+                <fullName>Carolyn Palafox</fullName>
+                <default>false</default>
+                <label>Carolyn Palafox</label>
+            </value>
+            <value>
+                <fullName>Chan&apos;tay Robins</fullName>
+                <default>false</default>
+                <label>Chan&apos;tay Robins</label>
+            </value>
+            <value>
+                <fullName>Chase Fitzpatrick</fullName>
+                <default>false</default>
+                <label>Chase Fitzpatrick</label>
+            </value>
+            <value>
+                <fullName>Eddie DeRonne</fullName>
+                <default>false</default>
+                <label>Eddie DeRonne</label>
+            </value>
+            <value>
+                <fullName>Emily Roy</fullName>
+                <default>false</default>
+                <label>Emily Roy</label>
+            </value>
+            <value>
+                <fullName>Emily Sheng</fullName>
+                <default>false</default>
+                <label>Emily Sheng</label>
+            </value>
+            <value>
+                <fullName>Emily Stark</fullName>
+                <default>false</default>
+                <label>Emily Stark</label>
+            </value>
+            <value>
+                <fullName>Faten Amine</fullName>
+                <default>false</default>
+                <label>Faten Amine</label>
+            </value>
+            <value>
+                <fullName>Jason Miller</fullName>
+                <default>false</default>
+                <label>Jason Miller</label>
+            </value>
+            <value>
+                <fullName>Jeff Wissman</fullName>
+                <default>false</default>
+                <label>Jeff Wissman</label>
+            </value>
+            <value>
+                <fullName>Jennifer Lundgren</fullName>
+                <default>false</default>
+                <label>Jennifer Lundgren</label>
+            </value>
+            <value>
+                <fullName>Jim Woodworth</fullName>
+                <default>false</default>
+                <label>Jim Woodworth</label>
+            </value>
+            <value>
+                <fullName>Joe Dudek</fullName>
+                <default>false</default>
+                <label>Joe Dudek</label>
+            </value>
+            <value>
+                <fullName>Joelle Maes</fullName>
+                <default>false</default>
+                <label>Joelle Maes</label>
+            </value>
+            <value>
+                <fullName>Jordan Joseph</fullName>
+                <default>false</default>
+                <label>Jordan Joseph</label>
+            </value>
+            <value>
+                <fullName>Josh Babb</fullName>
+                <default>false</default>
+                <label>Josh Babb</label>
+            </value>
+            <value>
+                <fullName>Karen Polzin</fullName>
+                <default>false</default>
+                <label>Karen Polzin</label>
+            </value>
+            <value>
+                <fullName>Katelyn Lalinsky</fullName>
+                <default>false</default>
+                <label>Katelyn Lalinsky</label>
+            </value>
+            <value>
+                <fullName>Kayla Jimenez</fullName>
+                <default>false</default>
+                <label>Kayla Jimenez</label>
+            </value>
+            <value>
+                <fullName>Kelly Hickoff</fullName>
+                <default>false</default>
+                <label>Kelly Hickoff</label>
+            </value>
+            <value>
+                <fullName>Kiaira May</fullName>
+                <default>false</default>
+                <label>Kiaira May</label>
+            </value>
+            <value>
+                <fullName>Krisna Evenson</fullName>
+                <default>false</default>
+                <label>Krisna Evenson</label>
+            </value>
+            <value>
+                <fullName>Kristina Gianuario</fullName>
+                <default>false</default>
+                <label>Kristina Gianuario</label>
+            </value>
+            <value>
+                <fullName>Kurtis Schneider</fullName>
+                <default>false</default>
+                <label>Kurtis Schneider</label>
+            </value>
+            <value>
+                <fullName>Kurt Klinker</fullName>
+                <default>false</default>
+                <label>Kurt Klinker</label>
+            </value>
+            <value>
+                <fullName>Kyle Lemcke</fullName>
+                <default>false</default>
+                <label>Kyle Lemcke</label>
+            </value>
+            <value>
+                <fullName>Larissa Dourjalian</fullName>
+                <default>false</default>
+                <label>Larissa Dourjalian</label>
+            </value>
+            <value>
+                <fullName>Lauren Gadoua</fullName>
+                <default>false</default>
+                <label>Lauren Gadoua</label>
+            </value>
+            <value>
+                <fullName>Lexi Weber</fullName>
+                <default>false</default>
+                <label>Lexi Weber</label>
+            </value>
+            <value>
+                <fullName>Lisa Fontana</fullName>
+                <default>false</default>
+                <label>Lisa Fontana</label>
+            </value>
+            <value>
+                <fullName>Maria Serravalle</fullName>
+                <default>false</default>
+                <label>Maria Serravalle</label>
+            </value>
+            <value>
+                <fullName>Matt Conn</fullName>
+                <default>false</default>
+                <label>Matt Conn</label>
+            </value>
+            <value>
+                <fullName>Maura Moin</fullName>
+                <default>false</default>
+                <label>Maura Moin</label>
+            </value>
+            <value>
+                <fullName>Megan Ludwig</fullName>
+                <default>false</default>
+                <label>Megan Ludwig</label>
+            </value>
+            <value>
+                <fullName>Michael Farner</fullName>
+                <default>false</default>
+                <label>Michael Farner</label>
+            </value>
+            <value>
+                <fullName>Michelle Damanskas</fullName>
+                <default>false</default>
+                <label>Michelle Damanskas</label>
+            </value>
+            <value>
+                <fullName>Mike Kluge</fullName>
+                <default>false</default>
+                <label>Mike Kluge</label>
+            </value>
+            <value>
+                <fullName>Mike Starn</fullName>
+                <default>false</default>
+                <label>Mike Starn</label>
+            </value>
+            <value>
+                <fullName>Munt Alhussain</fullName>
+                <default>false</default>
+                <label>Munt Alhussain</label>
+            </value>
+            <value>
+                <fullName>Nick Brown</fullName>
+                <default>false</default>
+                <label>Nick Brown</label>
+            </value>
+            <value>
+                <fullName>Nina Kieleszewski</fullName>
+                <default>false</default>
+                <label>Nina Kieleszewski</label>
+            </value>
+            <value>
+                <fullName>Patrick Grelak</fullName>
+                <default>false</default>
+                <label>Patrick Grelak</label>
+            </value>
+            <value>
+                <fullName>Rin Jones</fullName>
+                <default>false</default>
+                <label>Rin Jones</label>
+            </value>
+            <value>
+                <fullName>Rob Eames</fullName>
+                <default>false</default>
+                <label>Rob Eames</label>
+            </value>
+            <value>
+                <fullName>Shaun Rapske</fullName>
+                <default>false</default>
+                <label>Shaun Rapske</label>
+            </value>
+            <value>
+                <fullName>Stacy Churay</fullName>
+                <default>false</default>
+                <label>Stacy Churay</label>
+            </value>
+            <value>
+                <fullName>Tom Dempsey</fullName>
+                <default>false</default>
+                <label>Tom Dempsey</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>7</visibleLines>
+</CustomField>

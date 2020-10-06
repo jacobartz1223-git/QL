@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sub_Status__c</fullName>
+    <description>Dependency on Status (Stage)</description>
+    <externalId>false</externalId>
+    <label>Sub-Status</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>true</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contract Out</fullName>
+                <default>false</default>
+                <label>Contract Out</label>
+            </value>
+            <value>
+                <fullName>QL Terminated</fullName>
+                <default>false</default>
+                <label>QL Terminated</label>
+            </value>
+            <value>
+                <fullName>No Formal Relocation Program</fullName>
+                <default>false</default>
+                <label>No Formal Relocation Program</label>
+            </value>
+            <value>
+                <fullName>Less than Required Domestic Moves</fullName>
+                <default>false</default>
+                <label>Less than Required Domestic Moves</label>
+            </value>
+            <value>
+                <fullName>Joint Venture with Other Lender</fullName>
+                <default>false</default>
+                <label>Joint Venture with Other Lender</label>
+            </value>
+            <value>
+                <fullName>Less than Required Employees</fullName>
+                <default>false</default>
+                <label>Less than Required Employees</label>
+            </value>
+            <value>
+                <fullName>QL Not Selected</fullName>
+                <default>false</default>
+                <label>QL Not Selected</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Closed</controllingFieldValue>
+            <controllingFieldValue>Terminated</controllingFieldValue>
+            <valueName>QL Terminated</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

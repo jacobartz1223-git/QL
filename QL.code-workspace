@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\unpackaged\\unpackaged"
+		},
+		{
+			"path": "..\\profiles"
+		}
+	],
+	"settings": {
+		"python.pythonPath": "c:\\Users\\v-jartz\\Downloads\\python-3.8.5.exe"
+	}
+}

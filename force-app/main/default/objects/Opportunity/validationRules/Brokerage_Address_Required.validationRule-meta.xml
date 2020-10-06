@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Brokerage_Address_Required</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT($User.Bypass_Validation__c) &amp;&amp; 
+(RecordType.DeveloperName = &quot;Real_Estate&quot;) &amp;&amp; 
+IsWon &amp;&amp; 
+(ISNULL(Street__c) || ISNULL(City__c) || ISPICKVAL(State__c,&apos;&apos;) || ISNULL(Postal_Code__c)) &amp;&amp;
+(ISCHANGED(StageName) || ISCHANGED(Number_of_Offices__c) || ISCHANGED(City__c) || (TEXT(PRIORVALUE(State__c)) != TEXT(State__c)) || ISCHANGED(Postal_Code__c) || ISNEW())</errorConditionFormula>
+    <errorMessage>Brokerage Address is Required when a Partner is Active</errorMessage>
+</ValidationRule>

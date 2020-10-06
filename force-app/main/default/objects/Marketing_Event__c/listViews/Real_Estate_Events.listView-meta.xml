@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Real_Estate_Events</fullName>
+    <columns>NAME</columns>
+    <columns>Channel__c</columns>
+    <columns>Audience_Size__c</columns>
+    <columns>Event_Cost__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>Event_Start_Date__c</columns>
+    <columns>Event_End_Date__c</columns>
+    <columns>Event_Name__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Channel__c</field>
+        <operation>equals</operation>
+        <value>Real Estate</value>
+    </filters>
+    <label>Real Estate Events</label>
+</ListView>

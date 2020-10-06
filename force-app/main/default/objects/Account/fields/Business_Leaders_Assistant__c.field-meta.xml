@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Leaders_Assistant__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Who is the assistant to the Business Area Leader</description>
+    <externalId>false</externalId>
+    <label>Business Leaders Assistant</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Accounts (Business Leaders Assistant)</relationshipLabel>
+    <relationshipName>Accounts3</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

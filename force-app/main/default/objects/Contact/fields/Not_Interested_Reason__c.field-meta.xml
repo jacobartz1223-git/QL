@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Not_Interested_Reason__c</fullName>
+    <externalId>false</externalId>
+    <label>Not Interested Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Not_Interested__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Not this year</fullName>
+                <default>false</default>
+                <label>Not this year</label>
+            </value>
+            <value>
+                <fullName>Agent criteria to be defined</fullName>
+                <default>false</default>
+                <label>Agent criteria to be defined</label>
+            </value>
+            <value>
+                <fullName>Not enough experience</fullName>
+                <default>false</default>
+                <label>Not enough experience</label>
+            </value>
+            <value>
+                <fullName>Building network</fullName>
+                <default>false</default>
+                <label>Building network</label>
+            </value>
+            <value>
+                <fullName>Looking to hire people</fullName>
+                <default>false</default>
+                <label>Looking to hire people</label>
+            </value>
+            <value>
+                <fullName>Cost</fullName>
+                <default>false</default>
+                <label>Cost</label>
+            </value>
+            <value>
+                <fullName>Regulatory Maintenance</fullName>
+                <default>false</default>
+                <label>Regulatory Maintenance</label>
+            </value>
+            <value>
+                <fullName>Profitable</fullName>
+                <default>false</default>
+                <label>Profitable</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Not this year</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Agent criteria to be defined</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Not enough experience</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Building network</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>checked</controllingFieldValue>
+            <valueName>Looking to hire people</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

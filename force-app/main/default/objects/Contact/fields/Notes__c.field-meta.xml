@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notes__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>This field can be used for important contact details (ex. best time to contact, personal interests, etc.). This should not replace comments or takeaways from an activity with the contact.</inlineHelpText>
+    <label>Notes</label>
+    <length>32768</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
+</CustomField>

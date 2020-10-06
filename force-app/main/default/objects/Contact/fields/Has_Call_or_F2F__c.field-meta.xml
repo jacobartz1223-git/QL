@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Has_Call_or_F2F__c</fullName>
+    <externalId>false</externalId>
+    <formula>Number_of_Calls__c + Number_of_F2Fs__c &gt; 0</formula>
+    <label>Had Call or F2F</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

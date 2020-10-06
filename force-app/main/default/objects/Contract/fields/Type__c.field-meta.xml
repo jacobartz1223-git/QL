@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Direct Bill</fullName>
+                <default>false</default>
+                <label>Direct Bill</label>
+            </value>
+            <value>
+                <fullName>Event Sponsorship</fullName>
+                <default>false</default>
+                <label>Marketing Sponsorship</label>
+            </value>
+            <value>
+                <fullName>Exhibit A</fullName>
+                <default>false</default>
+                <label>Exhibit A</label>
+            </value>
+            <value>
+                <fullName>Exhibit B</fullName>
+                <default>false</default>
+                <label>Exhibit B</label>
+            </value>
+            <value>
+                <fullName>Invoice</fullName>
+                <default>false</default>
+                <label>Invoice</label>
+            </value>
+            <value>
+                <fullName>Lead Agreement</fullName>
+                <default>false</default>
+                <label>Lead Agreement</label>
+            </value>
+            <value>
+                <fullName>Mortgage Subsidy</fullName>
+                <default>false</default>
+                <label>Mortgage Subsidy</label>
+            </value>
+            <value>
+                <fullName>MSA</fullName>
+                <default>false</default>
+                <label>MSA</label>
+            </value>
+            <value>
+                <fullName>MSA Addendum</fullName>
+                <default>false</default>
+                <label>MSA Addendum</label>
+            </value>
+            <value>
+                <fullName>NDA</fullName>
+                <default>false</default>
+                <label>NDA</label>
+            </value>
+            <value>
+                <fullName>Terms and Conditions</fullName>
+                <default>false</default>
+                <label>Terms and Conditions</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

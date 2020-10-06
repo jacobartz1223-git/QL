@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Approved_Broker_State_Licenses__c</fullName>
+    <externalId>false</externalId>
+    <label>Approved Broker State Licenses</label>
+    <summaryFilterItems>
+        <field>License__c.Type_of_License__c</field>
+        <operation>equals</operation>
+        <value>Broker</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>License__c.State_License_Status__c</field>
+        <operation>equals</operation>
+        <value>Approved</value>
+    </summaryFilterItems>
+    <summaryForeignKey>License__c.Agent_Name__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

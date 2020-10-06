@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SF_Status__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( 
+AND(
+Agent_Logged_into_Workday__c = TRUE,
+NOT(ISNULL(Workday_Common_ID__c)),
+TEXT(Background_Check_Status__c)=&quot;Pass&quot;, 
+OR ( Historical_Products_and_Pricing_Training__c = TRUE,TEXT(Products_Pricing_Exam_Status__c)=&quot;Acquired&quot;),
+Approved_State_Licenses__c &gt; 0,
+TEXT(Rocket_Pro_Training_Status__c)=&quot;Successful&quot;),
+&quot;RTO&quot;, 
+
+
+IF(
+AND(
+Agent_Logged_into_Workday__c = TRUE,
+NOT(ISNULL(Workday_Common_ID__c)),
+TEXT(Background_Check_Status__c)=&quot;Pass&quot;, 
+Approved_State_Licenses__c &gt; 0),
+&quot;Waiting on Training&quot;, 
+
+IF(
+AND(
+Agent_Logged_into_Workday__c = TRUE,
+NOT(ISNULL(Workday_Common_ID__c)),
+TEXT(Background_Check_Status__c)=&quot;Pass&quot;, 
+OR ( Historical_Products_and_Pricing_Training__c = TRUE,TEXT(Products_Pricing_Exam_Status__c)=&quot;Acquired&quot;),
+TEXT(Rocket_Pro_Training_Status__c)=&quot;Successful&quot;), 
+&quot;Waiting on Licensing&quot;, 
+
+ 
+IF(
+AND(
+Agent_Logged_into_Workday__c = TRUE,
+NOT(ISNULL(Workday_Common_ID__c)),
+TEXT(Background_Check_Status__c)=&quot;Pass&quot;),
+&quot;Waiting on Licensing and Training&quot;, 
+
+IF(
+AND(
+Agent_Logged_into_Workday__c = TRUE,
+NOT(ISNULL(Workday_Common_ID__c)),
+TEXT(Background_Check_Status__c)=&quot;Pending&quot;),
+&quot;Checking Background&quot;, 
+
+IF(
+AND(
+Agent_Logged_into_Workday__c = TRUE,
+NOT(ISNULL(Workday_Common_ID__c))),
+&quot;Logged In To Workday&quot;, 
+
+IF(
+TEXT(Agent_Type__c) = &quot;Broker&quot;,
+&quot;Broker - Not Onboarding&quot;, 
+
+
+&quot;Handraiser&quot;)))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Onboarding Case Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

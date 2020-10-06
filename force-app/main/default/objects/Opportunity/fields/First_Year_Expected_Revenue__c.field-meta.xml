@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>First_Year_Expected_Revenue__c</fullName>
+    <externalId>false</externalId>
+    <formula>((DATE(YEAR(Target_Live_Date__c), 12, 31) - Target_Live_Date__c) / 365) *
+Expected_Revenue_Formula__c</formula>
+    <label>First Year Expected Revenue</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <type>Currency</type>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relo_Qualifying_To_Pursuing_Required</fullName>
+    <active>false</active>
+    <description>Company(Account Name) should have a Primary Contact with First Name, Last Name, Email and Phone Number fields populated. Total US Domestic Moves, Total US Homeowner Moves and Expected Opportunity greater than or equal to 10.</description>
+    <errorConditionFormula>NOT(Stage_Validation_Override__c) &amp;&amp;
+
+( ISBLANK( Go_Live_Date__c ) ||  Go_Live_Date__c  &gt;=  DATE(2018,2,1) )  &amp;&amp;
+(ISPICKVAL(Type,&apos;Corporate Direct&apos;) || ISPICKVAL(Type,&apos;Third Party Direct&apos;)) &amp;&amp;
+
+RecordType.DeveloperName = &quot;Relo&quot; &amp;&amp; 
+!(ISPICKVAL(StageName,&apos;Qualifying&apos;) || ISPICKVAL(StageName,&apos;New&apos;) || ISPICKVAL(StageName,&apos;Vetted Non-Opportunity&apos;))
+
+&amp;&amp; (
+    ISBLANK(Decision_Maker__c) || 
+    ISBLANK(Decision_Maker__r.FirstName) || 
+    ISBLANK(Decision_Maker__r.LastName) || 
+    ISBLANK(Decision_Maker__r.Email) || 
+    (ISBLANK(Decision_Maker__r.Phone) &amp;&amp; ISBLANK(Decision_Maker__r.MobilePhone) &amp;&amp; ISBLANK(Decision_Maker__r.OtherPhone)) ||
+    ISPICKVAL(Type, &apos;Third Party&apos;) || 
+    ISPICKVAL(Type, &apos;&apos;) || 
+    ISPICKVAL(Type, &apos;Association / Affiliate&apos;) || 
+    ISPICKVAL(Type, &apos;Government Direct&apos;) ||
+    ISPICKVAL(Type, &apos;Third Party Government&apos;) ||
+    ISNULL(Total_US_Domestic_Moves__c ) ||
+    Total_US_Domestic_Moves__c &lt; 25 || 
+    ISNULL(Total_US_Homeowner_Moves__c) ||
+    Total_US_Homeowner_Moves__c &lt; 25 || 
+    ISNULL(Expected_Opportunity__c) ||
+    Expected_Opportunity__c &lt; 25
+)</errorConditionFormula>
+    <errorMessage>Please check Guidance for Success in Qualifying Stage</errorMessage>
+</ValidationRule>

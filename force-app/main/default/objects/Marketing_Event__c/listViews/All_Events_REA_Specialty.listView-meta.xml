@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All_Events_REA_Specialty</fullName>
+    <columns>Marketing_Activity_Name__c</columns>
+    <columns>Event_Name__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>NAME</columns>
+    <columns>Channel__c</columns>
+    <columns>requester_user__c</columns>
+    <columns>Marketing_Assistance_Needed__c</columns>
+    <columns>Request_Submission_Date__c</columns>
+    <columns>Exhibiting__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Marketing_Event__c.Event</value>
+    </filters>
+    <filters>
+        <field>Start_Date__c</field>
+        <operation>greaterThan</operation>
+        <value>10/20/2019</value>
+    </filters>
+    <label>All Events - REA &amp; Specialty</label>
+</ListView>

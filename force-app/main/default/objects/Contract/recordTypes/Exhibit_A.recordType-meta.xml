@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Exhibit_A</fullName>
+    <active>true</active>
+    <label>Exhibit A</label>
+    <picklistValues>
+        <picklist>Affiliates_Covered_Under_THIS_NDA__c</picklist>
+        <values>
+            <fullName>Amrock</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Petram Data</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QL Community Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QLMS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rock Connections</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rocket HQ</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rocket Homes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rocket Loans</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>If_QL_are_there_modifications__c</picklist>
+        <values>
+            <fullName>No</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Yes</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Is_this_a_QL_or_partner_NDA__c</picklist>
+        <values>
+            <fullName>Partner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>QL</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Payment_Type__c</picklist>
+        <values>
+            <fullName>CC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Renter_Or_Home_Owner__c</picklist>
+        <values>
+            <fullName>Home Owner</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renter</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Draft</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Executed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Executed 1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Approval Process</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>Direct Bill</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Event Sponsorship</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exhibit A</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Exhibit B</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Invoice</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lead Agreement</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MSA Addendum</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mortgage Subsidy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NDA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Terms and Conditions</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_Affiliate_Program__c</picklist>
+        <values>
+            <fullName>Affinity</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City Switcher</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NEI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Simple Move</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type_of_Remittance__c</picklist>
+        <values>
+            <fullName>Check</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Wire</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Renewal_Deadline__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>When do we need to decide if we want to auto-renew or opt-out?</inlineHelpText>
+    <label>Renewal Deadline</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

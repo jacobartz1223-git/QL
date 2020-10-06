@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Internal_Implementation_Complete__c</fullName>
+    <description>Date the internal Client Services, Banking, etc. implementation been completed?</description>
+    <externalId>false</externalId>
+    <label>Internal Implementation Complete</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

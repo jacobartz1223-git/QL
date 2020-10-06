@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MI_Relo_Impltn_Active_Required</fullName>
+    <active>false</active>
+    <description>Regional Director approval required.</description>
+    <errorConditionFormula>NOT(Stage_Validation_Override__c) &amp;&amp;
+ ( ISBLANK( Go_Live_Date__c ) ||  Go_Live_Date__c  &gt;=  DATE(2018,2,1) )  &amp;&amp;
+(ISPICKVAL(Type,&apos;Corporate Direct&apos;) || ISPICKVAL(Type,&apos;Third Party Direct&apos;)) &amp;&amp;
+ISPICKVAL(StageName,&apos;Active&apos;) &amp;&amp;
+OR((RecordType.DeveloperName = &quot;MI&quot; &amp;&amp; 
+   ISNULL(Approved_Date__c)), 
+   (RecordType.DeveloperName = &quot;Relo&quot;
+    &amp;&amp; !ISPICKVAL(Type, &apos;Third Party&apos;)&amp;&amp; 
+         ISNULL(Approved_Date__c)))</errorConditionFormula>
+    <errorMessage>Please check guidance for success in Implementation stage.</errorMessage>
+</ValidationRule>

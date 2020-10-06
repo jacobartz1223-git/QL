@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Agents_Required</fullName>
+    <active>false</active>
+    <errorConditionFormula>NOT(Stage_Validation_Override__c) &amp;&amp;
+(RecordType.DeveloperName = &quot;Real_Estate&quot;) &amp;&amp; 
+IsWon &amp;&amp; 
+ISNULL(Number_of_Agents__c)</errorConditionFormula>
+    <errorDisplayField>Number_of_Agents__c</errorDisplayField>
+    <errorMessage>Number of Agents is required when a Partner is Active</errorMessage>
+</ValidationRule>

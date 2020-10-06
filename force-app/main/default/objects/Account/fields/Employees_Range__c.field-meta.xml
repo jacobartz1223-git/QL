@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Employees_Range__c</fullName>
+    <externalId>false</externalId>
+    <label>Employees Range</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Very Small (1-100)</fullName>
+                <default>false</default>
+                <label>Very Small (1-100)</label>
+            </value>
+            <value>
+                <fullName>Small (101-1,000)</fullName>
+                <default>false</default>
+                <label>Small (101-1,000)</label>
+            </value>
+            <value>
+                <fullName>Medium (1,001-10,000)</fullName>
+                <default>false</default>
+                <label>Medium (1,001-10,000)</label>
+            </value>
+            <value>
+                <fullName>Large (10,001-50,000)</fullName>
+                <default>false</default>
+                <label>Large (10,001-50,000)</label>
+            </value>
+            <value>
+                <fullName>Very Large (50,001+)</fullName>
+                <default>false</default>
+                <label>Very Large (50,001+)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

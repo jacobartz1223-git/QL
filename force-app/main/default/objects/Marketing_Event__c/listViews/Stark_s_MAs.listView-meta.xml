@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stark_s_MAs</fullName>
+    <columns>NAME</columns>
+    <columns>Marketing_Activity_Name__c</columns>
+    <columns>Approval_Status__c</columns>
+    <columns>CREATEDBY_USER</columns>
+    <columns>requester_user__c</columns>
+    <columns>Start_Date__c</columns>
+    <columns>OWNER.LAST_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OWNER.LAST_NAME</field>
+        <operation>equals</operation>
+        <value>Stark</value>
+    </filters>
+    <filters>
+        <field>requester_user__c</field>
+        <operation>contains</operation>
+        <value>Churay</value>
+    </filters>
+    <label>Stark&apos;s MAs</label>
+</ListView>

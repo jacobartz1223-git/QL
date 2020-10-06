@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Event_Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Request Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Corporate Round Table</fullName>
+                <default>false</default>
+                <label>Corporate Round Table</label>
+            </value>
+            <value>
+                <fullName>Focus Group</fullName>
+                <default>false</default>
+                <label>Focus Group</label>
+            </value>
+            <value>
+                <fullName>Conference</fullName>
+                <default>false</default>
+                <label>Conference</label>
+            </value>
+            <value>
+                <fullName>Regional Event</fullName>
+                <default>false</default>
+                <label>Regional Event</label>
+            </value>
+            <value>
+                <fullName>Benefit Partner Fair</fullName>
+                <default>false</default>
+                <label>Benefit Partner Fair</label>
+            </value>
+            <value>
+                <fullName>Office Visit</fullName>
+                <default>false</default>
+                <label>Office Visit</label>
+            </value>
+            <value>
+                <fullName>TML</fullName>
+                <default>false</default>
+                <label>TML</label>
+            </value>
+            <value>
+                <fullName>TMR</fullName>
+                <default>false</default>
+                <label>TMR</label>
+            </value>
+            <value>
+                <fullName>Both</fullName>
+                <default>false</default>
+                <label>Both</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

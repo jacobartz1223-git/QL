@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Contact__c</columns>
+    <columns>Event__c</columns>
+    <columns>Broker_Appointment_Type__c</columns>
+    <columns>Date_of_Session__c</columns>
+    <columns>License_Specialist__c</columns>
+    <columns>Session_Notes__c</columns>
+    <columns>Status__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Event__c</field>
+        <operation>contains</operation>
+        <value>MU1</value>
+    </filters>
+    <label>All</label>
+</ListView>

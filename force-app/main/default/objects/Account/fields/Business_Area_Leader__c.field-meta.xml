@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Business_Area_Leader__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Who is the head of this part of the business</description>
+    <externalId>false</externalId>
+    <label>Business Area Leader</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>Accounts (Business Area Leader)</relationshipLabel>
+    <relationshipName>Accounts2</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

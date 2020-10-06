@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Number_of_Broker_Licenses__c</fullName>
+    <externalId>false</externalId>
+    <label>Number of Broker Licenses</label>
+    <summaryFilterItems>
+        <field>License__c.State_Type__c</field>
+        <operation>equals</operation>
+        <value>Broker</value>
+    </summaryFilterItems>
+    <summaryForeignKey>License__c.Agent_Name__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

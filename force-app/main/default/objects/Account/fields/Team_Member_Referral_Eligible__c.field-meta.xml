@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Team_Member_Referral_Eligible__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Are team members at this company eligible for referral benefits</description>
+    <externalId>false</externalId>
+    <label>Team Member Referral Eligible</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

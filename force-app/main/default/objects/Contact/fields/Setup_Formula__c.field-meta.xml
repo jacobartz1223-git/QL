@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Setup_Formula__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR(NOT(ISBLANK(TEXT(Does_Agent_Qualify__c))),
+NOT(ISBLANK(TEXT(Saw_Webinar_Group_Session__c))),
+NOT(ISBLANK(TEXT(Net_Worth_Financial_Statements__c))),
+NOT(ISBLANK(TEXT(Entity_Bank_Set_up__c))),
+NOT(ISBLANK(TEXT(Surety_Bond__c))),
+NOT(ISBLANK(TEXT(Registered_Agent__c))),
+NOT(ISBLANK(TEXT(NMLS_MU1_Form__c))),
+NOT(ISBLANK(TEXT(Fingerprint_Forms__c))),
+NOT(ISBLANK(TEXT(State_Specific_Documents__c))),
+NOT(ISBLANK(TEXT(Certificate_of_Good_Standing__c))),
+NOT(ISBLANK(TEXT(Qualified_Individual_Confirmed__c))),
+NOT(ISBLANK(TEXT(Qualified_Individual__c))),
+NOT(ISBLANK(TEXT(License_Status__c))))</formula>
+    <label>Setup (Formula)</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GoLiveDate_Prospect_Required</fullName>
+    <active>false</active>
+    <description>Go Live Date is required when moving out of Prospect Status</description>
+    <errorConditionFormula>NOT($User.Bypass_Validation__c) &amp;&amp;
+(RecordType.DeveloperName = &quot;Relo&quot; || RecordType.DeveloperName = &quot;Real_Estate&quot;) &amp;&amp;
+(ISPICKVAL(StageName, &quot;Verbal&quot;) || ISPICKVAL(StageName, &quot;Implementation&quot;) || IsWon) &amp;&amp;
+NOT(ISPICKVAL(Type, &apos;Third Party&apos;)) &amp;&amp;
+ISNULL(Go_Live_Date__c) &amp;&amp;
+(ISCHANGED(StageName) || ISCHANGED(Go_Live_Date__c) || ISCHANGED(Type) || ISNEW())</errorConditionFormula>
+    <errorDisplayField>Go_Live_Date__c</errorDisplayField>
+    <errorMessage>(Target) Go Live Date is Required for Opportunities after Prospect status</errorMessage>
+</ValidationRule>

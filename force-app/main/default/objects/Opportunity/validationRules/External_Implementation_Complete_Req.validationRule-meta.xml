@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>External_Implementation_Complete_Req</fullName>
+    <active>false</active>
+    <description>External Implementation Complete is required when Partner is Active</description>
+    <errorConditionFormula>NOT($User.Bypass_Validation__c) &amp;&amp; 
+(RecordType.DeveloperName = &quot;Relo&quot; || RecordType.DeveloperName = &quot;Real_Estate&quot;) &amp;&amp; 
+IsWon &amp;&amp; 
+ISNULL(External_Implementation_Complete__c) &amp;&amp; 
+NOT(ISPICKVAL(Type, &apos;Third Party&apos;)) &amp;&amp;
+(ISCHANGED(StageName) || ISCHANGED(External_Implementation_Complete__c) || ISCHANGED(Type) || ISNEW())</errorConditionFormula>
+    <errorDisplayField>External_Implementation_Complete__c</errorDisplayField>
+    <errorMessage>External Implementation Complete is required when Partner is Active</errorMessage>
+</ValidationRule>

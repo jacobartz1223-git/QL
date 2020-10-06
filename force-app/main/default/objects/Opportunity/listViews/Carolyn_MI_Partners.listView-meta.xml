@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Carolyn_MI_Partners</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Partner_Tier__c</columns>
+    <columns>Account_Executive__c</columns>
+    <columns>Account_Manager__c</columns>
+    <columns>Regional_Director__c</columns>
+    <columns>State__c</columns>
+    <columns>Third_Party__c</columns>
+    <columns>No_of_Employees__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>OPPORTUNITY.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Opportunity.MI</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>equals</operation>
+        <value>Active</value>
+    </filters>
+    <filters>
+        <field>Account_State__c</field>
+        <operation>equals</operation>
+        <value>AK,WA,OR,CA,NV,AZ,UT,ID,WY,MT,ND,SD</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.TYPE</field>
+        <operation>notEqual</operation>
+        <value>Third Party</value>
+    </filters>
+    <label>Carolyn - MI Partners</label>
+    <language>en_US</language>
+</ListView>

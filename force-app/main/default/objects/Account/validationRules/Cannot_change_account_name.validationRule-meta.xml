@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cannot_change_account_name</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ISCHANGED (Name), 
+OR(
+$Profile.Id=&apos;2F00e3A000001yauZ&apos;))</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>You cannot change the Account name. Please contact your Administrator.</errorMessage>
+</ValidationRule>

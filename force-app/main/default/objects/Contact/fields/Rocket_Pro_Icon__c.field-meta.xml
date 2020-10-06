@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Rocket_Pro_Icon__c</fullName>
+    <externalId>false</externalId>
+    <formula>IMAGE(
+CASE(Rocket_Pro_Partner__c ,
+
+&quot;State Farm&quot;, &quot;https://qlbizdev--c.na138.content.force.com/servlet/servlet.ImageServer?id=0154V00000527Bh&amp;oid=00DK000000XGuxN&amp;lastMod=1592940369000&quot;,
+&quot;Farmers&quot;, &quot;https://qlbizdev--c.na138.content.force.com/servlet/servlet.ImageServer?id=0154V00000527Bm&amp;oid=00DK000000XGuxN&amp;lastMod=1592940390000&quot;,
+&quot;Real Estate&quot;, &quot;https://qlbizdev--c.na138.content.force.com/servlet/servlet.ImageServer?id=0154V00000527Cf&amp;oid=00DK000000XGuxN&amp;lastMod=1592939587000&quot;,
+&quot;https://qlbizdev--c.na138.content.force.com/servlet/servlet.ImageServer?id=0154V00000527Dd&amp;oid=00DK000000XGuxN&amp;lastMod=1592949208000&quot;),
+
+&quot;Rocket Pro Partner Icon&quot;)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Rocket Pro Icon</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

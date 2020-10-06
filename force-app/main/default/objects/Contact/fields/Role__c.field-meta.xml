@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Role__c</fullName>
+    <externalId>false</externalId>
+    <label>Role</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Accounting</fullName>
+                <default>false</default>
+                <label>Accounting</label>
+            </value>
+            <value>
+                <fullName>Administrative</fullName>
+                <default>false</default>
+                <label>Administrative</label>
+            </value>
+            <value>
+                <fullName>Agency Staff</fullName>
+                <default>false</default>
+                <label>Agency Staff</label>
+            </value>
+            <value>
+                <fullName>Agent</fullName>
+                <default>false</default>
+                <label>Agent</label>
+            </value>
+            <value>
+                <fullName>Ambassador</fullName>
+                <default>false</default>
+                <label>Ambassador</label>
+            </value>
+            <value>
+                <fullName>Assistant</fullName>
+                <default>false</default>
+                <label>Assistant</label>
+            </value>
+            <value>
+                <fullName>Associate Broker</fullName>
+                <default>false</default>
+                <label>Associate Broker</label>
+            </value>
+            <value>
+                <fullName>Associate Financial Consultant</fullName>
+                <default>false</default>
+                <label>Associate Financial Consultant</label>
+            </value>
+            <value>
+                <fullName>Board Member</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Board Member</label>
+            </value>
+            <value>
+                <fullName>Branch Manager</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Branch Manager</label>
+            </value>
+            <value>
+                <fullName>Broker/Owner</fullName>
+                <default>false</default>
+                <label>Broker/Owner</label>
+            </value>
+            <value>
+                <fullName>Client Relations</fullName>
+                <default>false</default>
+                <label>Client Relations</label>
+            </value>
+            <value>
+                <fullName>Command Assistant</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Command Assistant</label>
+            </value>
+            <value>
+                <fullName>Command General</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Command General</label>
+            </value>
+            <value>
+                <fullName>Command Sergeant Major</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Command Sergeant Major</label>
+            </value>
+            <value>
+                <fullName>Contracting Command</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Contracting Command</label>
+            </value>
+            <value>
+                <fullName>Corporate</fullName>
+                <default>false</default>
+                <label>Corporate</label>
+            </value>
+            <value>
+                <fullName>Corporate Additional Decision Maker</fullName>
+                <default>false</default>
+                <label>Corporate Additional Decision Maker</label>
+            </value>
+            <value>
+                <fullName>Financial_Consultant_Partner_FCA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Financial_Consultant_Partner_FCA</label>
+            </value>
+            <value>
+                <fullName>Financial Advisor</fullName>
+                <default>false</default>
+                <label>Financial Advisor</label>
+            </value>
+            <value>
+                <fullName>Financial Consultant</fullName>
+                <default>false</default>
+                <label>Financial Consultant</label>
+            </value>
+            <value>
+                <fullName>Financial Consultant Assistant</fullName>
+                <default>false</default>
+                <label>Financial Consultant Assistant</label>
+            </value>
+            <value>
+                <fullName>Financial Professional</fullName>
+                <default>false</default>
+                <label>Financial Professional</label>
+            </value>
+            <value>
+                <fullName>General Agent</fullName>
+                <default>false</default>
+                <label>General Agent</label>
+            </value>
+            <value>
+                <fullName>Government</fullName>
+                <default>false</default>
+                <label>Government</label>
+            </value>
+            <value>
+                <fullName>HR Coordinator</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>HR Coordinator</label>
+            </value>
+            <value>
+                <fullName>Industry Advocate</fullName>
+                <default>false</default>
+                <label>Industry Advocate</label>
+            </value>
+            <value>
+                <fullName>In-house Counselor</fullName>
+                <default>false</default>
+                <label>In-house Counselor</label>
+            </value>
+            <value>
+                <fullName>Legal</fullName>
+                <default>false</default>
+                <label>Legal</label>
+            </value>
+            <value>
+                <fullName>Manager</fullName>
+                <default>false</default>
+                <label>Manager</label>
+            </value>
+            <value>
+                <fullName>Managing Director</fullName>
+                <default>false</default>
+                <label>Managing Director</label>
+            </value>
+            <value>
+                <fullName>Marketing</fullName>
+                <default>false</default>
+                <label>Marketing</label>
+            </value>
+            <value>
+                <fullName>Military General Contact</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Military General Contact</label>
+            </value>
+            <value>
+                <fullName>Office Manager</fullName>
+                <default>false</default>
+                <label>Office Manager</label>
+            </value>
+            <value>
+                <fullName>President</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>President</label>
+            </value>
+            <value>
+                <fullName>Procurement</fullName>
+                <default>false</default>
+                <label>Procurement</label>
+            </value>
+            <value>
+                <fullName>Project</fullName>
+                <default>false</default>
+                <label>Project</label>
+            </value>
+            <value>
+                <fullName>Regional Banking Manager</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Regional Banking Manager</label>
+            </value>
+            <value>
+                <fullName>Relocation Direct Billing</fullName>
+                <default>false</default>
+                <label>Relocation Direct Billing</label>
+            </value>
+            <value>
+                <fullName>Relocation Director</fullName>
+                <default>false</default>
+                <label>Relocation Director</label>
+            </value>
+            <value>
+                <fullName>Relocation Mortgage Subsidy Billing</fullName>
+                <default>false</default>
+                <label>Relocation Mortgage Subsidy Billing</label>
+            </value>
+            <value>
+                <fullName>Senior Leader</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Senior Leader</label>
+            </value>
+            <value>
+                <fullName>Servicing</fullName>
+                <default>false</default>
+                <label>Servicing</label>
+            </value>
+            <value>
+                <fullName>Sponsor</fullName>
+                <default>false</default>
+                <label>Sponsor</label>
+            </value>
+            <value>
+                <fullName>Sr. Financial Consultant</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sr. Financial Consultant</label>
+            </value>
+            <value>
+                <fullName>Support</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Support</label>
+            </value>
+            <value>
+                <fullName>Team Leader</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Team Leader</label>
+            </value>
+            <value>
+                <fullName>Team Member</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Team Member</label>
+            </value>
+            <value>
+                <fullName>Technical</fullName>
+                <default>false</default>
+                <label>Technical</label>
+            </value>
+            <value>
+                <fullName>Third Party</fullName>
+                <default>false</default>
+                <label>Third Party</label>
+            </value>
+            <value>
+                <fullName>Third Party Additional Decision Maker</fullName>
+                <default>false</default>
+                <label>Third Party Additional Decision Maker</label>
+            </value>
+            <value>
+                <fullName>Third Party Counselor</fullName>
+                <default>false</default>
+                <label>Third Party Counselor</label>
+            </value>
+            <value>
+                <fullName>Transition Counselor</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Transition Counselor</label>
+            </value>
+            <value>
+                <fullName>Undefined</fullName>
+                <default>false</default>
+                <label>Undefined</label>
+            </value>
+            <value>
+                <fullName>Vice President</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Vice President</label>
+            </value>
+            <value>
+                <fullName>VP Branch Manager</fullName>
+                <default>false</default>
+                <label>VP Branch Manager</label>
+            </value>
+            <value>
+                <fullName>VP Financial Consultant</fullName>
+                <default>false</default>
+                <label>VP Financial Consultant</label>
+            </value>
+            <value>
+                <fullName>VP Sr. Financial Consultant</fullName>
+                <default>false</default>
+                <label>VP Sr. Financial Consultant</label>
+            </value>
+            <value>
+                <fullName>Z Team Leader</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Z Team Leader</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

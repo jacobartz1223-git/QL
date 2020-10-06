@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EndDateForActivities__c</fullName>
+    <description>adds the 3 days to the end date dynamically based on the end date day of the week. uses a modified version of this formula - CASE( MOD( Date__c - DATE(1900, 1, 7), 7), 0, &quot;Sunday&quot;, 1, &quot;Monday&quot;, 2, &quot;Tuesday&quot;, 3,
+&quot;Wednesday&quot;, 4, &quot;Thursday&quot;, 5, &quot;Friday&quot;, 6, &quot;Saturday&quot;,&quot;Error&quot;)</description>
+    <externalId>false</externalId>
+    <formula>IF(ISNULL(End_Date__c), null, End_Date__c + CASE( MOD( End_Date__c - DATE(1900, 1, 7), 7), 0, 3, 1, 3, 2, 3, 3,
+5, 4, 5, 5, 5, 6, 5, 3))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>EndDateForActivities</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

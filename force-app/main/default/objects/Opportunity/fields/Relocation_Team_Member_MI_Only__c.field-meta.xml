@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Relocation_Team_Member_MI_Only__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>This field is used to identify if a Relocation team member was responsible for securing the MI business</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Choose team member if this partnership came from Relocation</inlineHelpText>
+    <label>Relocation Team Member (MI Only)</label>
+    <referenceTo>User</referenceTo>
+    <relationshipName>Opportunities</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

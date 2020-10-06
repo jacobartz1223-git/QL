@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RPMDS_ROI__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(AND(Closed_Loan_Revenue__c&gt;0,Event_Cost__c&gt;0), Closed_Loan_Revenue__c / Event_Cost__c, NULL)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>RPMDS/ROI</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Currency</type>
+</CustomField>

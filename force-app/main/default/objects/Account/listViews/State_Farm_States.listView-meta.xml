@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>State_Farm_States</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>State_Type__c</columns>
+    <columns>Wave__c</columns>
+    <columns>State_Branch_Requirement__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>State_Type__c</field>
+        <operation>equals</operation>
+        <value>MLO,Broker</value>
+    </filters>
+    <label>State Farm States</label>
+</ListView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MU1_Deficiency__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>The License Record for the Agent has a status of &quot;Deficiency&quot;</inlineHelpText>
+    <label>MU1 Deficiency</label>
+    <summaryFilterItems>
+        <field>License__c.State_License_Status__c</field>
+        <operation>equals</operation>
+        <value>Deficiency</value>
+    </summaryFilterItems>
+    <summaryForeignKey>License__c.Agent_Name__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>
