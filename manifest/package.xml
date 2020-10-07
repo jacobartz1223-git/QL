@@ -26,6 +26,7 @@
 		<members>Contact.Work_Phone_Number__c</members>
 		<members>Contact.Workday_Common_ID__c</members>
 		<members>Contract.Actual_Go_Live_Date__c</members>
+		<members>Contract.Banking_Wire_Address__c</members>
 		<members>Contract.Expiration_Date__c</members>
 		<members>Contract.Flyer__c</members>
 		<members>Contract.Lump_Sum_Portal_Link__c</members>
@@ -61,11 +62,13 @@
 		<members>Lead.Work_Email__c</members>
 		<members>Lead.Work_Phone_Number__c</members>
 		<members>License__c.License_Type__c</members>
+		<members>Marketing_Event__c.Relocation_Counselor__c</members>
 		<members>Marketing_Event__c.Type_of_Engagement__c</members>
 		<members>Marketing_Event__c.Type_of_Webinar__c</members>
 		<members>Marketing_Event__c.Was_Gift_Offer_Taken__c</members>
 		<members>Opportunity.Fiscal_Year__c</members>
 		<members>Opportunity.Next_Anniversary__c</members>
+		<members>Opportunity.Open_End_Date__c</members>
 		<members>Opportunity.Partner_Gift_Restrictions__c</members>
 		<members>Opportunity.Partner_Is_Out_Of_RFP_Phase__c</members>
 		<members>Review__c.Comments_per_Program_Topics__c</members>
